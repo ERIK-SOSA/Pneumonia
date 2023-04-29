@@ -11,7 +11,7 @@ model = load_model('modelo.h5')
 #model = tf.keras.models.load_model('modelo.h5')
 
 # cargar la imagen que quieres analizar
-img = cv2.imread('NEUM-1.jpeg')
+img = cv2.imread('imagen.jpeg')
 
 # preprocesar la imagen
 img = cv2.resize(img, (150, 150))
